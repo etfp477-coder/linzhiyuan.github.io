@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="林知远的个人主页 · 计算机专业在读学生 · 前端开发爱好者">
+  <title>林知远 · 个人主页</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== Header 页头组件 ========== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="logo" aria-label="回到首页">林<span class="logo-dot">.</span></a>
+
+      <nav class="site-nav" id="siteNav" aria-label="主导航">
+        <ul>
+          <li><a href="#about" class="nav-link">关于我</a></li>
+          <li><a href="#skills" class="nav-link">技能</a></li>
+          <li><a href="#projects" class="nav-link">项目</a></li>
+          <li><a href="#contact" class="nav-link">联系我</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="打开菜单" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== Main 主内容 ========== -->
+  <main>
+
+    <!-- Hero 首屏 -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <img class="avatar"
+             src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%23f1f5f9'/%3E%3Ccircle cx='48' cy='38' r='16' fill='%2394a3b8'/%3E%3Cpath d='M20 90c0-16 12-26 28-26s28 10 28 26z' fill='%2394a3b8'/%3E%3C/svg%3E"
+             alt="林知远的头像占位图" width="96" height="96">
+        <h1 class="hero-title">你好，我是<span class="accent">林知远</span></h1>
+        <p class="hero-tagline">计算机科学与技术专业大二在读，喜欢用代码把想法变成界面。</p>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">查看我的项目</a>
+          <a href="#contact" class="btn btn-ghost">联系我</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+        <div class="two-col">
+          <div class="about-text">
+            <p>我是一名在读的计算机专业学生，主要方向是前端开发。平时喜欢捣鼓网页布局、写小交互，也在学习如何把一个页面从"能看"做到"好用"。</p>
+            <p>目前这门课是我的第一次完整走通"需求—编码—部署"流程的项目，希望最终能交出一个结构清晰、响应正常的个人主页。</p>
+          </div>
+          <div class="about-edu">
+            <h3 class="sub-title">教育经历</h3>
+            <ul class="edu-list">
+              <li>
+                <span class="edu-time">2024.09 — 至今</span>
+                <span class="edu-school">某高校 · 计算机科学与技术 · 本科在读</span>
+              </li>
+              <li>
+                <span class="edu-time">主修课程</span>
+                <span class="edu-school">Web前端开发、数据结构、计算机组成原理</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="sub-title awards-title">获奖情况</h3>
+        <table class="awards-table">
+          <thead>
+            <tr>
+              <th>时间</th>
+              <th>奖项名称</th>
+              <th>级别</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025.05</td>
+              <td>Web 前端设计大赛三等奖</td>
+              <td>校级</td>
+            </tr>
+            <tr>
+              <td>2025.11</td>
+              <td>优秀学生干部</td>
+              <td>院级</td>
+            </tr>
+            <tr>
+              <td>2026.04</td>
+              <td>课程项目最佳界面设计奖</td>
+              <td>课程级</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 技能 -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">技能</h2>
+        <p class="section-desc">正在学习和已经掌握的技术栈：</p>
+        <div class="tag-cloud">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Flexbox</span>
+          <span class="tag">Grid</span>
+          <span class="tag">响应式设计</span>
+          <span class="tag">Git</span>
+          <span class="tag">Figma</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Vue（入门）</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目 -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">项目经历</h2>
+        <p class="section-desc">课程中做过的几个小项目：</p>
+        <div class="project-grid">
+          <article class="card">
+            <h3 class="card-title">个人介绍主页</h3>
+            <p class="card-desc">用语义化 HTML5 + CSS3 搭建的个人主页，含统一页头页脚与响应式导航。</p>
+            <div class="card-tags">
+              <span class="tag tag-sm">HTML</span>
+              <span class="tag tag-sm">CSS</span>
+            </div>
+            <a class="card-link" href="#" aria-label="查看个人介绍主页项目详情">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3 class="card-title">校园社团官网</h3>
+            <p class="card-desc">使用浮动与定位实现多栏布局，含二级下拉导航、轮播 Banner 与报名表单。</p>
+            <div class="card-tags">
+              <span class="tag tag-sm">HTML</span>
+              <span class="tag tag-sm">CSS</span>
+              <span class="tag tag-sm">表单</span>
+            </div>
+            <a class="card-link" href="#" aria-label="查看校园社团官网项目详情">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3 class="card-title">学生信息管理</h3>
+            <p class="card-desc">用原生 JS + DOM 实现动态表格增删改查、表单校验与 localStorage 持久化。</p>
+            <div class="card-tags">
+              <span class="tag tag-sm">JavaScript</span>
+              <span class="tag tag-sm">DOM</span>
+              <span class="tag tag-sm">localStorage</span>
+            </div>
+            <a class="card-link" href="#" aria-label="查看学生信息管理项目详情">查看详情 →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+        <p class="section-desc">有问题或者想聊聊技术，欢迎通过以下方式找我：</p>
+        <ul class="contact-list">
+          <li><span class="contact-label">邮箱</span><a href="mailto:linzhiyuan@example.com">linzhiyuan@example.com</a></li>
+          <li><span class="contact-label">GitHub</span><a href="https://github.com/" target="_blank" rel="noopener">github.com/linzhiyuan</a></li>
+          <li><span class="contact-label">掘金</span><a href="https://juejin.cn/" target="_blank" rel="noopener">juejin.cn/linzhiyuan</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer 页脚组件 ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">© 2026 林知远 · 用 HTML + CSS + 原生 JS 手工搭建</p>
+      <button class="back-to-top" id="backToTop" aria-label="回到顶部">↑ 回到顶部</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
