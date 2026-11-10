@@ -9,6 +9,7 @@ This is an example of Linzhiyan’s public GitHub repository.happy！lucky！smi
 > *保持简单，保持快乐。*
 
 Welcome to this little corner of the open-source world! This is just a sample repo for exploring ideas. 
+
 欢迎来到开源世界的这个小角落！这只是一个用来探索想法的示例仓库。
 
 ### 🌟 What's inside? / 里面有什么？
