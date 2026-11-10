@@ -31,6 +31,9 @@ Welcome to this little corner of the open-source world! This is just a sample re
 - [x] Add some magic / 加点魔法
 - [ ] Explore more / 继续探索...
 
+<img width="296" height="256" alt="Ena ena7_sticker" src="https://github.com/user-attachments/assets/f3a1e59f-c09f-4478-a994-5dbe6145964f" />
+
+
 ```bash
 # Just a little happy vibe / 一点点快乐的氛围
 git commit -m "Happy! Lucky! Smile~yeah!"
