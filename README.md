@@ -3,6 +3,8 @@ This is an example of Linzhiyan’s public GitHub repository.happy！lucky！smi
 
 这是 Linzhiyan 的公开 GitHub 仓库示例。开心！幸运！微笑～耶！
 
+<img width="296" height="256" alt="Emu emu12_sticker" src="https://github.com/user-attachments/assets/1d5114d7-db98-4784-8002-8c954e080243" />
+
 # ✨ Linzhiyan's Public Repository / Linzhiyan 的公开仓库
 
 > *Keep it simple, keep it happy.*
